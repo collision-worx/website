@@ -13,7 +13,7 @@ header {
 
 header .title {
     font-family: 'Acme', 'Roboto', sans-serif;
-    font-size: 50px;
+    font-size: 4em;
     font-weight: bold;
     color: var(--lightGrey);
     margin-top: 12pt;
@@ -92,7 +92,7 @@ body {
     margin-top: 20px;
     margin-left: 20px;
     font-family: 'Acme', 'Roboto', sans-serif;
-    font-size: 52px;
+    font-size: 3em;
     font-weight: bold;
     color: var(--darkGrey);
 }
@@ -110,7 +110,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: 'Roboto', sans-serif;
-    font-size: large;
+    font-size: 1.4em;
     color: var(--darkGrey);
     text-align: justify;
 }
