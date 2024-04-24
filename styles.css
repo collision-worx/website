@@ -2,7 +2,7 @@
     --blue: #2a9ff5;
     --darkGrey: #444;
     --lightGrey: #cfd4d8;
-    --lightGreyT: #cfd4d8b7;
+    --lightGreyT: #cfd4d8e8;
 }
 
 header {
@@ -17,9 +17,10 @@ header .title {
     font-weight: bold;
     color: var(--lightGrey);
     margin-top: 12pt;
-    margin-left: 20px;
+    max-width: fit-content;
+    margin-left: auto; /* was 20px */
     margin-right: auto;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     text-wrap: wrap;
     text-align: center;
     align-self: flex-end;
@@ -86,12 +87,15 @@ body {
 }
 
 .content {
-    height: 100vh;
+    height: auto;
 }
 
 .content h1 {
     margin-top: 20px;
-    margin-left: 20px;
+    max-width: fit-content;
+    /*margin-left: 20px;*/
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Acme', 'Roboto', sans-serif;
     font-size: 3em;
     font-weight: bold;
@@ -103,7 +107,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     background-color: var(--lightGreyT);
-    border-radius: 12px;
+    /*border-radius: 8px;*/
     border-color: var(--darkGrey);
 }
 
