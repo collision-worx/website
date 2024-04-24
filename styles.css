@@ -69,10 +69,11 @@ header img {
 
 body {
     overflow: auto;
-    background-color: var(--darkGrey);
+    background-color: var(--lightGrey);
     background-image: linear-gradient(transparent, var(--lightGrey)), url('images/shop_front.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 .container-lr {
@@ -130,4 +131,11 @@ body {
 
 .sticky + .content {
     padding-top: 40px;
+}
+
+@media(min-width: 0px) and (max-width: 850px) {
+    header .title{
+        font-size: 30px;
+        margin-left: auto;
+    }
 }
