@@ -94,7 +94,7 @@ body {
     margin-top: 20px;
     max-width: fit-content;
     /*margin-left: 20px;*/
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
     font-family: 'Acme', 'Roboto', sans-serif;
     font-size: 3em;
@@ -117,7 +117,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.4em;
     color: var(--darkGrey);
-    text-align: justify;
+    text-align: left;
 }
 
 .content-panel img {
@@ -141,5 +141,12 @@ body {
     header .title{
         font-size: 30px;
         margin-left: auto;
+    }
+
+    .content h1 {
+        font-size: 2.2em;
+    }
+    .content-panel p {
+        font-size: 1.8em;
     }
 }
