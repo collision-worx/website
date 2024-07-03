@@ -3,11 +3,15 @@
     --darkGrey: #444;
     --lightGrey: #cfd4d8;
     --lightGreyT: #cfd4d8e8;
+    --yellow: #fce803;
+    --red: #fc1c03;
+    --whiteT: #FFFFFFAA;
 }
 
 header {
     height: 150px;
-    background-color: var(--darkGrey);
+    /*background-color: var(--lightGrey);*/
+    background-color: black;
     border-bottom: 4px solid var(--blue);
 }
 
@@ -15,7 +19,8 @@ header .title {
     font-family: 'Acme', 'Roboto', sans-serif;
     font-size: 4em;
     font-weight: bold;
-    color: var(--lightGrey);
+    /*color: var(--lightGrey);*/
+    color: white;
     margin-top: 12pt;
     max-width: fit-content;
     margin-left: auto; /* was 20px */
@@ -37,7 +42,8 @@ header img {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: var(--lightGrey);
+    /*background-color: var(--lightGrey);*/
+    background-color: black;
     height: 40px;
     overflow: hidden;
 }
@@ -45,7 +51,8 @@ header img {
 /* navbar links */
 .navbar a {
     display: inline;
-    color: var(--blue);
+    /*color: var(--blue);*/
+    color: var(--yellow);
     padding: 16px;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -58,8 +65,10 @@ header img {
 
 /* Active/current link */
 .navbar a.active {
-    background-color: var(--blue);
-    color: white;
+    /*background-color: var(--blue);*/
+    background-color: var(--yellow);
+    /*color: white;*/
+    color: var(--red);
 }
 
 /* Links on mouse-over */
@@ -99,16 +108,16 @@ body {
     font-family: 'Acme', 'Roboto', sans-serif;
     font-size: 3em;
     font-weight: bold;
-    color: var(--darkGrey);
+    /*color: var(--darkGrey);*/
+    color: black;
 }
 
 .content-panel {
     margin: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: var(--lightGreyT);
-    /*border-radius: 8px;*/
-    border-color: var(--darkGrey);
+    background-color: var(--whiteT);
+    border-radius: 4px;
 }
 
 .content-panel p {
@@ -116,6 +125,7 @@ body {
     padding-bottom: 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 1.4em;
+    font-weight: 500;
     color: var(--darkGrey);
     text-align: left;
 }
